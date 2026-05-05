@@ -1,4 +1,5 @@
-document.getElementsById("header").setInnerHTML(`
+header.innerHTML= `
+        <header>
            <div class="nav">
             <img src="graphics/logo.png" alt="wim logo" style="width:7.5dvw">
             <p><a href="index.html">home</a></p>
@@ -6,4 +7,5 @@ document.getElementsById("header").setInnerHTML(`
             <p><a href="posts.html">posts</a></p>
             <p><a href="contact.html">contact</a></p>
 
-        </div> `);
+        </div> 
+    </header>`;
